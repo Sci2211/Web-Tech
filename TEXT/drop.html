@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <titl></titl>
+    <style>
+.navbar {
+    overflow: hidden;
+    background-color: #194b40;
+    font-family: Arial;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .About {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+  .About .Abtbut {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  
+  .navbar a:hover, .About:hover .Abtbut {
+    background-color: rgb(58, 16, 87);
+  }
+  
+  
+  .About_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+ 
+   .About_content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .About_content a:hover {
+    background-color: #c9c2c2;
+  }
+  
+  .About:hover .About_content{
+    display: block;
+  }
+    </style>
+</head>
+<body>
+    <img src="ab.jpg" alt="Image not Found" style= "z-index: -1; width: 100%;opacity: 90%; position: absolute;">
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <div class="About">
+          <button class="Abtbut">About
+            
+          </button>
+          <div class="About_content">
+            <a href="#">How To Join</a>
+            <a href="#">About us</a>
+            <a href="#">How it works</a>
+          </div>
+        </div>
+        <a href="#contact">Contact</a>
+      </div>
+</body>
+</html>
